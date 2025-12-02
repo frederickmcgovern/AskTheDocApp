@@ -1,6 +1,6 @@
-# Update to make work
 streamlit
 langchain
+langchain-classic
 langchain-openai
 langchain-community
 langchain-text-splitters
