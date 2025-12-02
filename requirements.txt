@@ -1,5 +1,5 @@
 streamlit
-langchain
+langchain version 0.1.0
 openai
 chromadb
 tiktoken
