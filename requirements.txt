@@ -1,6 +1,9 @@
+# Update to make work
 streamlit
 langchain
 langchain-openai
-openai
+langchain-community
+langchain-text-splitters
 chromadb
 tiktoken
+openai
