@@ -2,7 +2,7 @@
 import streamlit as st
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain.chains import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
 def generate_response(uploaded_file, openai_api_key, query_text):
@@ -45,5 +45,6 @@ with st.form('myform', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
 
 
